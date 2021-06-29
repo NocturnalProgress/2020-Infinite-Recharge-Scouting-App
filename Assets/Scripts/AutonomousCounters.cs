@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class AutonomousCounters : MonoBehaviour
+public class AutonomousCounters : MonoBehaviour // This script is used to collect the amount of Power Cells scored during Autonomous
 {
     // [HideInInspector]
 

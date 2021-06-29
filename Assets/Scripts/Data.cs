@@ -3,10 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class Data : MonoBehaviour
+public class Data : MonoBehaviour // Allows data to be accesed by GenerateQRCode.cs or SerializeData.cs
 {
-    //Allows data to be accesed by GenerateQRCode.cs or SerializeData.cs
-
     public AutonomousCounters autonomousCounters;
     public TeleOpCounters teleOpCounters;
     public TMP_InputField nameInputField;
@@ -62,7 +60,7 @@ public class Data : MonoBehaviour
         return json;
     }
 
-    public void PrepareForNextMatch()
+    public void PrepareForNextMatch() // Clears the data fields to prepare for the next match
     {
         // Initial Data
         // nameInputField.text = "";

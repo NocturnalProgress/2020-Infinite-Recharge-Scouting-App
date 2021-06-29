@@ -3,11 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-/*
-    This script is used to keep track of the amount of power cells scored during TeleOp.
-*/
-
-public class TeleOpCounters : MonoBehaviour
+public class TeleOpCounters : MonoBehaviour // This script is used to collect the amount of Power Cells scored during TeleOp
 {
     // [HideInInspector]
 
