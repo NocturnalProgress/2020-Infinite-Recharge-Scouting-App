@@ -36,6 +36,23 @@ public class AutonomousCounters : MonoBehaviour // This script is used to collec
         lowerCount = Convert.ToInt32(lowerCounter.text);
     }
 
+    private void Update() {
+        if (upperCount < 0) {
+            upperCount = 0;
+            UpdateUpperCount();
+        }
+
+        if (innerCount < 0) {
+            innerCount = 0;
+            UpdateInnerCount();
+        }
+
+        if (lowerCount < 0) {
+            lowerCount = 0;
+            UpdateLowerCount();
+        }
+    }
+
     //Inner
     public void SubtractFromUpperCounter()
     {
