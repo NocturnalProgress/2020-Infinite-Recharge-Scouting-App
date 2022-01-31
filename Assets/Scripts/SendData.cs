@@ -59,7 +59,15 @@ public class SendData : MonoBehaviour
     {
         if (ConnectedToInternet() == true)
         {
-            StartCoroutine(Post(data.dataToExport.name, data.dataToExport.teamName, data.dataToExport.initiationLine, data.dataToExport.matchNumber, data.dataToExport.autonomousUpperCount, data.dataToExport.autonomousInnerCount, data.dataToExport.autonomousLowerCount, data.dataToExport.teleOpUpperCount, data.dataToExport.teleOpInnerCount, data.dataToExport.teleOpLowerCount, data.dataToExport.drivingEffectiveness, data.dataToExport.defenseEffectiveness, data.dataToExport.climbingEffectiveness, data.dataToExport.additionalNotes));
+            int count = 0;
+            while (count < data.scoutingDataContainer.Count)
+            {
+                StartCoroutine(Post(data.scoutingDataContainer[count].name, data.scoutingDataContainer[count].teamName, data.scoutingDataContainer[count].initiationLine, data.scoutingDataContainer[count].matchNumber, data.scoutingDataContainer[count].autonomousUpperCount, data.scoutingDataContainer[count].autonomousInnerCount, data.scoutingDataContainer[count].autonomousLowerCount, data.scoutingDataContainer[count].teleOpUpperCount, data.scoutingDataContainer[count].teleOpInnerCount, data.scoutingDataContainer[count].teleOpLowerCount, data.scoutingDataContainer[count].drivingEffectiveness, data.scoutingDataContainer[count].defenseEffectiveness, data.scoutingDataContainer[count].climbingEffectiveness, data.scoutingDataContainer[count].additionalNotes));
+                count += 1;
+            }
+            data.scoutingDataContainer.Clear();
+            // StartCoroutine(Post(data.dataToExport.name, data.dataToExport.teamName, data.dataToExport.initiationLine, data.dataToExport.matchNumber, data.dataToExport.autonomousUpperCount, data.dataToExport.autonomousInnerCount, data.dataToExport.autonomousLowerCount, data.dataToExport.teleOpUpperCount, data.dataToExport.teleOpInnerCount, data.dataToExport.teleOpLowerCount, data.dataToExport.drivingEffectiveness, data.dataToExport.defenseEffectiveness, data.dataToExport.climbingEffectiveness, data.dataToExport.additionalNotes));
+
         }
         else
         {
