@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 /*
     This script exports the Scouting Data to a Json file.
@@ -9,7 +10,7 @@ public class SerializeData : MonoBehaviour
 {
     private string jsonPath;
 
-    public GameObject data;
+    public Data data;
 
     public NotificationSystem notificationSystem;
 
@@ -19,7 +20,7 @@ public class SerializeData : MonoBehaviour
 
         jsonPath = Application.persistentDataPath + "/ScoutingData" + randomNumber + ".json";
 
-        string json = data.GetComponent<Data>().SerializeToJson();
+        string json = data.SerializeToJson();
         System.IO.File.WriteAllText(jsonPath, json);
 
         notificationSystem.FinishedExportingData();
