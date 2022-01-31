@@ -3596,7 +3596,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &254656421
 GameObject:
@@ -3745,8 +3745,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 171.27312, y: -37.5}
-  m_SizeDelta: {x: 68.50925, y: 75}
+  m_AnchoredPosition: {x: 400.13983, y: -37.5}
+  m_SizeDelta: {x: 160.05594, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268298898
 MonoBehaviour:
@@ -4780,7 +4780,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &332996867
 GameObject:
@@ -10336,13 +10336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4378c2b07db0d274b84520e05b7e7b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCanvas: {fileID: 1305820036}
-  initialDataCanvas: {fileID: 1388114542}
-  autonomousCanvas: {fileID: 929614404}
-  teleOpCanvas: {fileID: 1472702380}
-  endGameCanvas: {fileID: 850679313}
-  submitDataCanvas: {fileID: 559473517}
-  selectionCanvas: {fileID: 0}
 --- !u!114 &696712365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11668,8 +11661,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 102.76387, y: -37.5}
-  m_SizeDelta: {x: 68.50925, y: 75}
+  m_AnchoredPosition: {x: 240.08391, y: -37.5}
+  m_SizeDelta: {x: 160.05594, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &777184740
 MonoBehaviour:
@@ -12512,13 +12505,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 293e6f24ebc3cca499a29ea27b982bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  format: 2048
-  teamNumberInputField: {fileID: 1027769347}
-  nameInputField: {fileID: 1632569625}
-  autonomousCounters: {fileID: 1245566568}
-  teleOpCounters: {fileID: 965062581}
-  data: {fileID: 597680281}
-  notificationSystem: {fileID: 0}
 --- !u!114 &822408280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14375,7 +14361,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &929394810
 GameObject:
@@ -19367,7 +19353,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178777492}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
@@ -20346,8 +20332,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 34.254623, y: -37.5}
-  m_SizeDelta: {x: 68.50925, y: 75}
+  m_AnchoredPosition: {x: 80.02797, y: -37.5}
+  m_SizeDelta: {x: 160.05594, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1248801932
 MonoBehaviour:
@@ -21504,13 +21490,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4378c2b07db0d274b84520e05b7e7b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCanvas: {fileID: 380882567}
-  initialDataCanvas: {fileID: 705993347}
-  autonomousCanvas: {fileID: 2013860038}
-  teleOpCanvas: {fileID: 1603628403}
-  endGameCanvas: {fileID: 1475181184}
-  submitDataCanvas: {fileID: 1641273603}
-  selectionCanvas: {fileID: 0}
 --- !u!114 &1287223005
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23756,7 +23735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1372787437
 RectTransform:
   m_ObjectHideFlags: 0
@@ -24389,8 +24368,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 239.78236, y: -37.5}
-  m_SizeDelta: {x: 68.50925, y: 75}
+  m_AnchoredPosition: {x: 560.1958, y: -37.5}
+  m_SizeDelta: {x: 160.05594, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1389747585
 MonoBehaviour:
@@ -24716,13 +24695,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 293e6f24ebc3cca499a29ea27b982bb5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  format: 2048
-  teamNumberInputField: {fileID: 1825205663}
-  nameInputField: {fileID: 192642078}
-  autonomousCounters: {fileID: 1656713996}
-  teleOpCounters: {fileID: 1028291304}
-  data: {fileID: 1317415975}
-  notificationSystem: {fileID: 0}
 --- !u!114 &1394273172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28609,7 +28581,7 @@ Transform:
   - {fileID: 2100682595}
   - {fileID: 1178777496}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1591371419
 GameObject:
@@ -35012,7 +34984,7 @@ GameObject:
   - component: {fileID: 1903569063}
   m_Layer: 0
   m_Name: Apple iPad 4 WiFi
-  m_TagString: Untagged
+  m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35067,8 +35039,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 308.29163, y: -37.5}
-  m_SizeDelta: {x: 68.50925, y: 75}
+  m_AnchoredPosition: {x: 720.2517, y: -37.5}
+  m_SizeDelta: {x: 160.05594, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1905783077
 MonoBehaviour:
@@ -38434,8 +38406,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 111438055}
   m_HandleRect: {fileID: 111438054}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.507999
+  m_Value: 0.9999997
+  m_Size: 0.6759615
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -38599,7 +38571,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2100682591}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
