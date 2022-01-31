@@ -94,7 +94,7 @@ public class Data : MonoBehaviour // Allows data to be accesed by GenerateQRCode
 }
 
 [System.Serializable]
-public class DataToExport
+public struct DataToExport
 {
     public string name;
     public string matchNumber;
@@ -114,7 +114,7 @@ public class DataToExport
 
 // Wrapper to allow list to be serialized
 [System.Serializable]
-public class Container
+public struct Container
 {
     [SerializeField]
     public List<DataToExport> ScoutingData;
